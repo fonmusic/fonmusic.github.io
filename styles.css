@@ -1,6 +1,6 @@
 body {
     font-family: 'Avenir Next';
-    background-color: #d4e2e3;
+    background: linear-gradient(90deg, #1d93b0 0%, #88a28c 100%);
     margin: 0;
     padding: 20px;
   }
@@ -46,15 +46,22 @@ body {
   ul li:before {
     content: "•";
     margin-right: 5px;
-    color: #4285F4;
+    color: #0c1d38;
   }
   
   a {
-    color: #4285F4;
+    color: #0b1e3c;
     text-decoration: none;
   }
   
   a:hover {
     text-decoration: underline;
+  }
+
+  hr {
+    border: 0.5px solid #14294b;
+    height: 1px;
+    background: #14294b;
+    background-image: linear-gradient(to right, #14294b, #6786b9, #14294b);
   }
   
